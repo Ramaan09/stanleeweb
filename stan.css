@@ -1,0 +1,48 @@
+body {
+  background-color: #255;
+  background-image: url("../images/texture-office.png");
+}
+
+h1 {
+  color: green;
+}
+
+.content-box {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  background-color: #3c3c3c;
+}
+
+.hero-top {
+  background: url("https://news.marvel.com/wp-content/uploads/2016/09/561ecde9dfbf6-2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.dark-transparency {
+  padding: 15px;
+  background-color: rgba(255,0,0,.5);
+}
+
+.hero-top .lead {
+  color: #CCC;
+}
+
+.margin-top15 {
+  margin-top: 15px;
+}
+
+.margin-bottom15 {
+  margin-bottom: 20px;
+}
+
+.margin-right15 {
+  margin-right: 10px;
+}
+
+@media (max-width: 575px) {
+  .content-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
